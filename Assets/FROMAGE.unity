@@ -169,6 +169,7 @@ MonoBehaviour:
       Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MaturazioneTempo","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpriteFormaggioMielato","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Sprite,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CorrenteElettrica","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CorrenteElettricaStacco","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8894016768258138636, guid: 6f65fd7b3eb9f74459bc5cb676d31c4e, type: 3}
