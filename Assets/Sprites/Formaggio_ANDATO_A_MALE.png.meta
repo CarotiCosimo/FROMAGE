@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6f65fd7b3eb9f74459bc5cb676d31c4e
+guid: f447e4ce4d0265847a385e36cf655d34
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8894016768258138636
-    second: FormaggioMielato_0
+      213: 7064323108679562692
+    second: Formaggio_ANDATO_A_MALE_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FormaggioMielato_0
+      name: Formaggio_ANDATO_A_MALE_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 34
         y: 0
-        width: 510
-        height: 371
+        width: 537
+        height: 376
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c02e462d025ed6b70800000000000000
-      internalID: 8894016768258138636
+      spriteID: 4c5bd6f5074890260800000000000000
+      internalID: 7064323108679562692
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      FormaggioMielato_0: 8894016768258138636
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

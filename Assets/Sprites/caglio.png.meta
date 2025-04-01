@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6f65fd7b3eb9f74459bc5cb676d31c4e
+guid: 9322ec65a02c06947bc63fd82a9246fe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8894016768258138636
-    second: FormaggioMielato_0
+      213: -3631891363777426662
+    second: caglio_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FormaggioMielato_0
+      name: caglio_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 510
-        height: 371
+        width: 336
+        height: 218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c02e462d025ed6b70800000000000000
-      internalID: 8894016768258138636
+      spriteID: a1bcc371c0ee89dc0800000000000000
+      internalID: -3631891363777426662
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      FormaggioMielato_0: 8894016768258138636
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

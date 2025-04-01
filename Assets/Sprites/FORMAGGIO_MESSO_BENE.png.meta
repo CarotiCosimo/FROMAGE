@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FORMAGGIO_MESSO_BENE_0: -8001218068679773932
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

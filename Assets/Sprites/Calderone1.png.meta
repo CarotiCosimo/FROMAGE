@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Calderone1_0: 8058764056669407472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
