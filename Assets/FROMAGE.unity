@@ -326,7 +326,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SpawnPoints","value":{"$content":[{"x":-3.4,"y":0.0,"$type":"UnityEngine.Vector2"},{"x":0.4,"y":0.0,"$type":"UnityEngine.Vector2"},{"x":3.4,"y":0.0,"$type":"UnityEngine.Vector2"},{"x":6.4,"y":0.0,"$type":"UnityEngine.Vector2"},{"x":-3.4,"y":-3.0,"$type":"UnityEngine.Vector2"},{"x":0.4,"y":-3.0,"$type":"UnityEngine.Vector2"},{"x":3.4,"y":-3.0,"$type":"UnityEngine.Vector2"},{"x":6.4,"y":-3.0,"$type":"UnityEngine.Vector2"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
       Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 1640103769}
+    - {fileID: 5851544693111027626, guid: d9e0af9a8ebb8f04491188853a336f52, type: 3}
     - {fileID: 8894016768258138636, guid: 6f65fd7b3eb9f74459bc5cb676d31c4e, type: 3}
     - {fileID: 2051020136165890712, guid: 8090d5b316218da4a9270c858e16b8f1, type: 3}
     - {fileID: -7843911875781253471, guid: b747f0bee483c894ca339e5b5b0182c8, type: 3}
@@ -472,7 +472,7 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DeltaSpawnFormaggio","value":{"$content":15.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TimeAccensioneForno","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Timer","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CostoFormaggio","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CostoFormaggio","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IndexSpawn","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
@@ -1812,11 +1812,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 724087515912491286, guid: 1bdf029c8134a274ca5681b2efd64c43, type: 3}
   m_PrefabInstance: {fileID: 8578623892957493516}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1640103769 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5851544693111027626, guid: d9e0af9a8ebb8f04491188853a336f52, type: 3}
-  m_PrefabInstance: {fileID: 2377601076594496544}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1651947223 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7214056396341961643, guid: 8e1468e71c296a74085508926d4614cc, type: 3}
@@ -1864,7 +1859,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.9261, y: -383}
+  m_AnchoredPosition: {x: -16, y: -383}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1688914984
