@@ -293,7 +293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"Durata
-      giorno","value":{"$content":60.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      giorno","value":{"$content":45.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Gas","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"soldi","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CorrenteElettrica","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
@@ -336,7 +336,11 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Counter
       Timer Maturazione","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ALLCOunterMaturazione","value":{"$content":[],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
-      Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ImmagineHighlight
+      valvola","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Sprite,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Valvola","value":{"$content":13,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ImmagineValvola","value":{"$content":14,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Sprite,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 5851544693111027626, guid: d9e0af9a8ebb8f04491188853a336f52, type: 3}
     - {fileID: 8894016768258138636, guid: 6f65fd7b3eb9f74459bc5cb676d31c4e, type: 3}
@@ -350,6 +354,9 @@ MonoBehaviour:
     - {fileID: 2800000, guid: 3b4d3635028f424439df7eaa9611b8f6, type: 3}
     - {fileID: 2800000, guid: 24c38b25ee2302947bdb9a8b3185a218, type: 3}
     - {fileID: 2800000, guid: 1abaf7b3caa4bcc4baa2f30b2ec330d0, type: 3}
+    - {fileID: -1253751063135452495, guid: 9dc415db17f6f0b48ac9b22762bb8f18, type: 3}
+    - {fileID: 589126902}
+    - {fileID: 7264569461837489623, guid: d591f08c81cae224e90322af09000c26, type: 3}
 --- !u!4 &124206183
 Transform:
   m_ObjectHideFlags: 0
@@ -1047,6 +1054,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &589126902 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5247974698966646385, guid: 6a5f2cc315fffa6468dd2ecdee57623e, type: 3}
+  m_PrefabInstance: {fileID: 2290285852779858026}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &609165710 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4137074535405053064, guid: 69d71c94f8229ea40a1e7638bd2c628a, type: 3}
@@ -2837,22 +2849,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1991759385523282276, guid: d9e0af9a8ebb8f04491188853a336f52, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1991759385523282276, guid: d9e0af9a8ebb8f04491188853a336f52, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Maturazione","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IndexFormaggio","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Counter
-        Timer Maturazione","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IndexCunterMaturazione","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CounterMaturazione","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ElegibleMaturazione","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TimerDaMielato","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 5851544693111027626, guid: d9e0af9a8ebb8f04491188853a336f52, type: 3}
       propertyPath: m_Name
       value: Formaggio
@@ -3259,7 +3255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4690171939538732546, guid: 234d25c037c8981449c5fdda9c1f5370, type: 3}
       propertyPath: m_fontSize
-      value: 97.2
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4690171939538732546, guid: 234d25c037c8981449c5fdda9c1f5370, type: 3}
       propertyPath: m_margin.w
