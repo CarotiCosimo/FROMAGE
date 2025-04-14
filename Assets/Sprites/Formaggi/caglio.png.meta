@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      caglio_0: -3631891363777426662
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

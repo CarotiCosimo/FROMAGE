@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FormaggioTime3_0: -3502316824477096536
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
