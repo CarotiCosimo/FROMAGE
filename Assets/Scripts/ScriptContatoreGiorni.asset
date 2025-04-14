@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: ScriptContatoreGiorni
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":148.9877,"y":158.3457},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-262.0,"y":-162.0},"guid":"727115d7-ab58-44fa-82e4-b03f07c2b695","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-245.0,"y":60.0},"guid":"6c551b18-0f72-47e8-92ec-aa4d6dd2d23a","$version":"A","$type":"Unity.VisualScripting.Update","$id":"11"},{"kind":"Scene","defaultValues":{"name":{"$content":"TestoGiorni","$type":"System.String"}},"position":{"x":111.0,"y":49.0},"guid":"328ad30f-2911-41ba-8508-d064627290dc","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"13"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"GiornoAttuale","$type":"System.String"}},"position":{"x":-225.0,"y":218.0},"guid":"05fa395b-e9da-4a60-8220-b5c51fc6eae5","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"15"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"d6aadd8a-da76-41ff-970f-e280be1895e4","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"b36352c8-da16-435b-a3f3-2f2f4c7af6e3","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
